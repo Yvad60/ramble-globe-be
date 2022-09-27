@@ -1,2 +1,3 @@
 # ramble-globe-be
-Learn and navigate the whole world 
+
+Learn and navigate the whole world

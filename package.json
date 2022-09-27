@@ -1,0 +1,40 @@
+{
+  "name": "ramble-globe-be",
+  "version": "1.0.0",
+  "description": "Learn and navigate the whole world",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "lint": "eslint . --ext .ts --max-warnings 0",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --ignore-unknown --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yvad60/ramble-globe-be.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yvad60/ramble-globe-be/issues"
+  },
+  "homepage": "https://github.com/Yvad60/ramble-globe-be#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.20",
+    "prettier": "2.7.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "*"
+  }
+}

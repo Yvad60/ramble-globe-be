@@ -1,0 +1,4 @@
+{
+  "*": "pnpm format:write",
+  "*.ts": "pnpm lint:fix"
+}
